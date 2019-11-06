@@ -1,0 +1,38 @@
+description: 'Angular has it''s own custom templating syntax. '
+topic: angular
+id: angular-templates
+title: 'Angular Template Syntax'
+questions:
+    -
+        text: '`Il partira au nord du pays`   A quel temps est conjugué le verbe de cette phrase ? '
+        options:
+            -
+                correct: true
+                value: 'Futur simple de l’indicatif'
+            -
+                correct: false
+                value: 'Passé composé de l’indicatif'
+            -
+                correct: false
+                value: 'Présent de l’indicatif'
+    -
+        text: 'What does event binding look like?'
+        options:
+            -
+                correct: true
+                value: '<button (click)="handler">'
+            -
+                correct: false
+                value: ' <button v-on:click="handler">'
+            -
+                correct: false
+                value: '<button onClick={handler}>'
+    -
+        text: 'Which of these is a structural directive?'
+        options:
+            -
+                correct: false
+                value: ngClass
+            -
+                correct: true
+                value: '*ngFor'

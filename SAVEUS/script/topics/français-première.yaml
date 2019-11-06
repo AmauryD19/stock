@@ -1,0 +1,12 @@
+quizzes:
+    -
+        title: Basics
+        description: 'What is Angular?'
+        id: français-première-grammaire
+    -
+        title: Templates
+        description: 'Angular''s template syntax'
+        id: français-première-conjugaison
+id: français-première
+img: français-première.png
+title: Français Première
